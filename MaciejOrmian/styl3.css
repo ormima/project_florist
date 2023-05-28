@@ -1,0 +1,45 @@
+*{
+    font-family: Georgia;
+}
+header, footer{
+    background-color: #C75B39;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.box{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.left{
+    background-color: #FF8A65;
+    width: 25%;
+    height: 100%;
+    padding-top: 50px;
+}
+.right{
+    background-color: snow;
+    width: 75%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+img{
+    width: 25%;
+    margin: 10px;
+    box-shadow: 15px 15px 10px dimgray;
+}
+li{
+    margin: 5px;
+}
+::marker{
+    color: snow;
+}
+h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
